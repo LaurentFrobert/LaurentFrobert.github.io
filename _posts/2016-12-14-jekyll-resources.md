@@ -9,6 +9,7 @@ Article sur smashing magazine pour construire son blog Jekyll sous github
 
 
 thèmes à voir :
+
 ![]({{ site.baseurl }}/images/jekyll-themes-screenshot/minimal-mistakes.png "minimal mistakes screenshot")
 https://mmistakes.github.io/minimal-mistakes/
 
