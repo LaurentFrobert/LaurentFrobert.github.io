@@ -12,5 +12,5 @@ thèmes à voir :
 ![]({{ site.baseurl }}/images/jekyll-themes-screenshot/minimal-mistakes.png "minimal mistakes screenshot")
 https://mmistakes.github.io/minimal-mistakes/
 
-![](https://github.com/LaurentFrobert/laurentfrobert.github.io/raw/master/images/jekyll-themes-screenshot/mojombo.png"mojombo screenshot")
+![]({{ site.baseurl }}/images/jekyll-themes-screenshot/mojombo.png"mojombo screenshot")
 https://github.com/mojombo/mojombo.github.io
