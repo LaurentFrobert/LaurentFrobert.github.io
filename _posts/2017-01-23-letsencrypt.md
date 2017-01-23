@@ -14,3 +14,7 @@ commentaires :
 * la ligne de génération du certificat temporaire (openssl xxxx) ne sert donc pas (car stockées dans l'image, et ensuite je monte un volume externe donc perte du cert tempo)
 * attention : pas de certificat tempo donc avant d'avoir le premier certificat il ne faut pas de bloc server (443 )avec ssl_certificate dans le fichier nginx.conf
 
+TODO :
+
+essayer avec certbot <https://certbot.eff.org> peut être encore plus simple
+
