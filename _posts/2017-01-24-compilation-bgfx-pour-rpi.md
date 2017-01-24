@@ -45,3 +45,7 @@ LDFLAGS="-ldl" make -j4 rpi-release
 le résultat de la compilation est dans 
 bgfx/.build/rpi/bin
 
+Lancement des programmes de tests :
+
+<bgfx_path>/examples/runtime $ ../../.build/<config>/bin/example-00-helloworldRelease
+
