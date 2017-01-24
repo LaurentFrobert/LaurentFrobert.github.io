@@ -42,3 +42,6 @@ pour info : d'après doc <http://choccyhobnob.com/tutorials/compiling-mame-on-ra
 
 LDFLAGS="-ldl" make -j4 rpi-release
 
+le résultat de la compilation est dans 
+bgfx/.build/rpi/bin
+
