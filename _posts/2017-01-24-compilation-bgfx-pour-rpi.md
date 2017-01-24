@@ -29,11 +29,14 @@ cette commande permet de generer les makefile de bgfx
 apt-get install libsdl2-dev libsdl2-ttf-dev libfontconfig-dev
 (mais il semble que libsdl est compiler avec la dependence X11 : TODO recompiler la lib SDL pour RPI avec que tu OpenGLES sans X11)
 
-/genie/bin/linux/genie --gcc=rpi --with-sdl gmake
+/genie/bin/linux/genie --gcc=rpi --with-examples  --with-sdl gmake
+
+                  
 
 
 
 pour info : d'après doc <http://choccyhobnob.com/tutorials/compiling-mame-on-raspberry-pi/> : libSDL 2.0.5 pour avoir le GPU HW
 
-10. puis on build : make -j4 rpi-release
+10. puis on build : (-ldl car sinon on a une erreur :  undefined reference to symbol 'dlsym@@GLIBC_2.4')
+LDFLAGS="-ldl" make -j4 rpi-release
 
