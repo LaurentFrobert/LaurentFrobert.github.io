@@ -19,10 +19,20 @@ pour compiler les tests :
 
 1. cd ../test
 2. ./configure
-3. on enleve la compilation du programme "testgles" dans le Makefile car il lui faut les GLesV1 (et nous avons la v2)
+3. on enleve la compilation du programme "testgles" et testshader dans le Makefile car il lui faut les GLesV1 (et nous avons la v2)
 4. make 
 
 et voila !
 
+on peut aussi ajouter la lib SDL_Image, et aussi SDL_ttf:
+1. cd ~
+2. wget http://www.libsdl.org/projects/SDL_image/release/SDL2_image-2.0.0.tar.gz
+3. tar zxvf SDL2_image-2.0.0.tar.gz
+4. cd SDL2_image-2.0.0 && mkdir build && cd build
+5. ../configure
+6. make -j 4
+7. sudo make install
 
+idem avec http://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.14.tar.gz
 
+idem avec http://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.1.tar.gz
