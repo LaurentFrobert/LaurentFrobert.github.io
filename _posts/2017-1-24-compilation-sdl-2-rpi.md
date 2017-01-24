@@ -13,6 +13,16 @@ d'après la doc : <https://solarianprogrammer.com/2015/01/22/raspberry-pi-raspbi
 6. tar zxvf SDL2-2.0.5.tar.gz
 7. cd  SDL2-2.0.5 && mkdir build && cd build
 8. ../configure --host=armv7l-raspberry-linux-gnueabihf --disable-pulseaudio --disable-esd --disable-video-mir --disable-video-wayland --disable-video-x11 --disable-video-opengl
+9. make install
+
+pour compiler les tests :
+
+1. cd ../test
+2. ./configure
+3. on enleve la compilation du programme "testgles" dans le Makefile car il lui faut les GLesV1 (et nous avons la v2)
+4. make 
+
+et voila !
 
 
 
