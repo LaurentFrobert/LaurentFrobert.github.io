@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Docker executer une image ARM sur un proc x86
+title: Executer une image ARM sur un proc x86 avec Docker
 --- 
 Pour pouvoir faire une compilation de paquet RPI par exemple
 
