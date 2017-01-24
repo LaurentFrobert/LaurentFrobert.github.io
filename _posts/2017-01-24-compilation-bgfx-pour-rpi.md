@@ -25,6 +25,15 @@ cette commande permet de generer les makefile de bgfx
 
 6. git clone git://github.com/bkaradzic/bgfx.git
 7. cd /bgfx
-8. on modifie le makefile pour préciser ou se trouve notre commande genie : GENIE=/genie/bin/$(OS)/genie
-9. puis on build : make rpi-release
+8. génération du makefile (en utilisant sdl car sinon bgfx veux les libs X11)
+apt-get install libsdl2-dev libsdl2-ttf-dev libfontconfig-dev
+(mais il semble que libsdl est compiler avec la dependence X11 : TODO recompiler la lib SDL pour RPI avec que tu OpenGLES sans X11)
+
+/genie/bin/linux/genie --gcc=rpi --with-sdl gmake
+
+
+
+pour info : d'après doc <http://choccyhobnob.com/tutorials/compiling-mame-on-raspberry-pi/> : libSDL 2.0.5 pour avoir le GPU HW
+
+10. puis on build : make -j4 rpi-release
 
