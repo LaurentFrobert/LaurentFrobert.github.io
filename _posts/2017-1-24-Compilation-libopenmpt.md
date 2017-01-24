@@ -3,6 +3,7 @@ layout: post
 title: Compilation libopenmpt (player audio s3m, xtm) pour RPI sous alpine linux
 --- 
 
+<http://lib.openmpt.org/libopenmpt/>
 
 1. apk update
 2. apk add build-base openssl-dev mpg123-dev  libogg-dev libvorbis-dev portaudio-dev  libsndfile-dev
