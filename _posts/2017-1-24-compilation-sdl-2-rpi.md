@@ -35,4 +35,6 @@ on peut aussi ajouter la lib SDL_Image, et aussi SDL_ttf:
 
 idem avec http://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.14.tar.gz
 
+-> compilation probleme avec SDL_ttf : car il "trouve" les opengl  (ce qui est faux) donc modif de configure pour mettre have_opengl=no lors du test de présence de OpenGL
+
 idem avec http://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.1.tar.gz
