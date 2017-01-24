@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Compilation SDL2 pour RPI sans X11
+title: Compilation SDL2 sans X11 pour RPI
 --- 
 
 d'après la doc : <https://solarianprogrammer.com/2015/01/22/raspberry-pi-raspbian-getting-started-sdl-2/>
