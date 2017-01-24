@@ -10,7 +10,7 @@ j'utilise la méthode "docker arm sur x86" voir autre post
 
 puis :
 
-1. docker run -it resin/raspbian /bin/bash
+1.  docker run --rm -it resin/rpi-raspbian /bin/bash
 2. apt-get update
 3. apt-get install  libraspberrypi-bin libraspberrypi-dev build-essential git
 4. d'après la doc il faut (git clone git://github.com/bkaradzic/bx.git) mais il semble que la commande genie dans bx ne soit pas pour du rpi
