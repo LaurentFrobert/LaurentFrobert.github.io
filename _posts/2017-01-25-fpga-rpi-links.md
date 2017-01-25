@@ -4,6 +4,10 @@ title: Liens sur hardware FPGA et RPI axés sur la communication
 ---
 Lien à propos des FPGA
 
+[An Introduction to FPGA Programming (Verilog)](http://chiphack.org/)
+
+[GitHub : de0-nano raspi communication demo](https://github.com/CatherineH/de0-nano-raspi-communication-demo)
+
 [A fast µC to FPGA bus sur STM32/FPGA](http://jeelabs.org/2016/11/a-fast-%C2%B5c-to-fpga-bus/)
 
 [Benchmarking Raspberry Pi GPIO Speed](http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/)
