@@ -27,6 +27,8 @@ title: Installation de docker sur linux mint 18
     
     
 Pour éviter de devoir être root ou utiliser sudo à chaque commande docker il faut rajouter l'utilisateur dans le group docker :
+> problème de sécurité potentiel : d'après <http://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo>
+> Warning: The docker group (or the group specified with -G) is root-equivalent; see [Docker Daemon Attack Surface details](https://docs.docker.com/engine/security/security/#/docker-daemon-attack-surface)
 
 1. `sudo groupadd docker`
 
