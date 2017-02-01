@@ -49,3 +49,4 @@ Lancement des programmes de tests :
 
 <bgfx_path>/examples/runtime $ ../../.build/<config>/bin/example-00-helloworldRelease
 
+> Binding lua ffi : <https://github.com/CapsAdmin/ffibuild/tree/master/examples/bgfx>
