@@ -16,4 +16,10 @@ title : Liste de commandes unix utiles
 
   `truncate -s 0 /var/lib/docker/containers/*/*-json.log`
 
+* Docker : remove stopped container
+  `docker rm $(docker ps -a -q)`
+
+* Docker : Remove all intermediate images
+  `docker rmi $(docker images -f "dangling=true" -q)`
+
 
