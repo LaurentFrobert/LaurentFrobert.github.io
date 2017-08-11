@@ -24,4 +24,14 @@ title : Liste de commandes unix utiles
 
   `docker rmi $(docker images -f "dangling=true" -q)`
 
+* Voir en temps réel le nombre de connexion réseau
+
+  `watch ss -r -a -s`
+
+* pour voir les fichier ouvert (ici avec -i interface reseau, equivalent a netstat)
+
+  `sudo watch -n 1 lsof -i`
+
+  
+
 
